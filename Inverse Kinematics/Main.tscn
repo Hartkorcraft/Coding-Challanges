@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://InverseKinematics.cs" type="Script" id=1]
+
+[node name="Main" type="Node2D"]
+
+[node name="Arm" type="Node2D" parent="."]
+position = Vector2( 476.22, 258.746 )
+script = ExtResource( 1 )
